@@ -13,4 +13,4 @@ print(sys.executable)
 r = requests.get('https://github.com/deborabastos/py_web_scraping')
 print(r.status_code)
 
-
+print(r.status_code)
