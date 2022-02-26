@@ -54,7 +54,7 @@ links = list(map(lambda x:x.attrs['href'], links))
 
 # interar cada link na variável
 def details(link):
-	print(f'O código está pegando o link: {link}')
+	# print(f'O código está pegando o link: {link}')
 	headers = {
 		'authority': 'www.fundamentus.com.br',
 		'cache-control': 'max-age=0',
@@ -86,4 +86,5 @@ def details(link):
 data_acoes = []
 for i in links:
 	data_acoes.append(details(i))
+print(len(data_acoes))
 # print(data_acoes)
