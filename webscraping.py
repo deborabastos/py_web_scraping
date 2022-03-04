@@ -3,6 +3,10 @@ import pandas as pd
 import requests
 import re
 
+###############################˜#################################
+########################## WEBSCRAPING #########################
+################################################################
+
 # page = requests.get('https://www.fundamentus.com.br/ultimos-resultados.php')
 # print(page.status_code)
 
@@ -54,7 +58,7 @@ links = list(map(lambda x:x.attrs['href'], links))
 
 # interar cada link na variável
 def details(link):
-	# print(f'O código está pegando o link: {link}')
+	print(f'O código está pegando o link: {link}')
 	headers = {
 		'authority': 'www.fundamentus.com.br',
 		'cache-control': 'max-age=0',
@@ -88,3 +92,13 @@ for i in links:
 	data_acoes.append(details(i))
 print(len(data_acoes))
 # print(data_acoes)
+
+
+################################################################
+######################## ANÁLISE DOS DADOS ######################
+################################################################
+
+import plotly.express as px
+
+df = pd.DataFrame(data_acoes)
+df.head()
