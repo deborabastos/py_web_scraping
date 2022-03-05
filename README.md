@@ -12,12 +12,13 @@ python -m virtualenv <name_env>
 source <name_env>/bin/activate
 ```
 
-#### To create requirements.txt
+#### Requirements
+- To create requirements.txt
 ```
 pip freeze > requirements.txt
 ```
 
-#### The project has the following requirements:
+- The project has the following requirements:
 ```
 pip install beautifulsoup4
 pip install pandas
