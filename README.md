@@ -1,11 +1,13 @@
 # Learning web scraping with Python
 
-#### To create virtual enviroment:
+https://drive.google.com/drive/folders/1yCECUuPRpV1H3nG1qhIbOhaVoUom9pJY
+
+#### Virtual enviroment:
+- To create:
 ```
 python -m virtualenv <name_env>
 ```
-
-#### To activate virtualenv
+- To activate:
 ```
 source <name_env>/bin/activate
 ```
