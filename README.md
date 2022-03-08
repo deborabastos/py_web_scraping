@@ -5,16 +5,16 @@
 https://drive.google.com/drive/folders/1yCECUuPRpV1H3nG1qhIbOhaVoUom9pJY
 
 
-##### BeatifulSoup:
+#### BeatifulSoup:
 Beautiful Soup provides simple methods for navigating, searching, and modifying a parse tree in HTML, XML files. It transforms a complex HTML document into a tree of Python objects. It also automatically converts the document to Unicode, so you don’t have to think about encodings. This tool not only helps you scrape but also to clean the data.
 
-##### Pandas:
+#### Pandas:
 Python library used for data manipulation and analysis.
 
-##### Re:
+#### Re:
 Regex: The regular expressions library provides a class that represents regular expressions, which are a kind of mini-language used to perform pattern matching within strings. 
 
-##### Virtual enviroment:
+#### Virtual enviroment:
 - To create:
 ```
 python -m virtualenv <name_env>
@@ -24,7 +24,7 @@ python -m virtualenv <name_env>
 source <name_env>/bin/activate
 ```
 
-##### Requirements
+#### Requirements
 - To create requirements.txt
 ```
 pip freeze > requirements.txt
