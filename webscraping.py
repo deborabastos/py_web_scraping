@@ -36,7 +36,8 @@ headers = {
 page = requests.get(
     "https://www.fundamentus.com.br/ultimos-resultados.php", headers=headers
 )
-# print(page.status_code)
+
+print(page.status_code)
 
 # Get page content in a better format:
 source_page = BS(page.content, "html.parser")
