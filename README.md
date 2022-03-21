@@ -29,5 +29,9 @@ source <name_env>/bin/activate
 ```
 pip freeze > requirements.txt
 ```
+- To install:
+```
+pip install -r requirements.txt
+```
 
 
